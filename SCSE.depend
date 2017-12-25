@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1514221090 source:c:\users\surox\desktop\c - gcc project\scse\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<math.h>
+	<time.h>
+	<ctype.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<command.h>
+	<fcntl.h>
+
+1514216111 c:\users\surox\desktop\c - gcc project\scse\include\command.h
+
+1514229048 source:c:\users\surox\desktop\c-gcc_projects\scse\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<math.h>
+	<time.h>
+	<ctype.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<command.h>
+	<fcntl.h>
+
+1514226854 c:\users\surox\desktop\c-gcc_projects\scse\include\command.h
+
