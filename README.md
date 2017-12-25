@@ -22,6 +22,9 @@ SCCL is an educational project I undertook to challenge myself in writing a simp
 SCCL relies heavily on functions mostly found in low-level libraries such as unistd.h and stdio.h making it portable across
 most of today's platforms.
 #### Initial Start-up
+![startup prompt](https://imgur.com/FEAWln5.png)
+
+
 The program first displays a welcome graphic detailing the CLI's version.Then, the user is prompted
 to enter a password which will later be used for the logout feature. the file passwd is created and the password stored inside 
 a string and inside passwd with fprintf. we then close it and move on to the prompt.
