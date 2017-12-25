@@ -4,11 +4,18 @@ SCCL is a simple UNIX-like command line written in C. It is in NO way meant to r
 SCCL is an educational project I undertook to challenge myself in writing a simple CLI using the most basic C syntax.
 ## Features :
 *Basic File manipulation and sysadmin commands builtin with UNIX-Like syntax
+
+
 *Cross-Platform and portable
+
+
 *Intuitive and easy-to-use
+
 ## Yet to be implemented :
 *Networking commands to fetch files and transfer data on the net such as "wget" on bash
+
 *basic text editor to edit files such as "GNU nano" or "vim"
+
 *Multi-Tasking commands to manage different processes on host system
 
 ### Making-Of
