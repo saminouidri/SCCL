@@ -211,6 +211,16 @@ int main()
             scanf("%s", &filecop);
             rename(filetbcop, filecop);
         }
+        else if(strcmp(command, "touch")==0)
+        {
+            char touch[100];
+            printf("Enter filename to be created : ");
+            scanf("%s", &touch);
+
+            FILE* touchfile = fopen(touch,"w");
+
+            fclose(touch);
+        }
         else if(strcmp(command, "exit")==0)
         {
             exit(1);
@@ -243,11 +253,11 @@ int main()
             switch(choice)
             {
                 case(1):
-                printf("ls | cd | mkdir | rmdir | makefile | rm | cpy | mv | time | shutdown | logout | sysinfo | clear | exit | run | help | about");
+                printf("ls | cd | mkdir | rmdir | makefile | rm | cpy | mv | touch | time | shutdown | logout | sysinfo | clear | exit | run | help | about");
                 break;
 
                 case(2):
-                printf("ls | cd | mkdir | rmdir | makefile | rm | cpy | mv | time | logout | sysinfo | exit | help | about");
+                printf("ls | cd | mkdir | rmdir | makefile | rm | cpy | mv | touch | time | logout | sysinfo | exit | help | about");
                 break;
             }
 

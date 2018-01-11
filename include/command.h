@@ -99,6 +99,10 @@ int WhatDo(char command[100])
         {
             printf("\n[about] displays info about S.C.C.L including version number.");
         }
+        else if(strcmp(command, "touch")==0)
+        {
+            printf("\n[touch] creates a new file with filename specified by the user.");
+        }
 
 }
 
