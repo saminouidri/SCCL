@@ -278,6 +278,34 @@ int main()
             printf("=========================");
 
         }
+        else if(strcmp(command, "textedit")==0)
+        {
+            char textedit[100];
+			char textinput[999];
+            printf("Enter filename to be edited : ");
+            scanf("%s", &textedit);
+
+            FILE* textfile = fopen(textedit,"w");
+
+			printf(" ==TeXT-eDIT== V0.1   \n");
+			int editmode;
+			for(editmode=0; editmode<999;editmode++)
+            {
+                scanf("%s", &textinput);
+                if(strcmp(textinput, "exit")==0)
+                {
+                    editmode = 999;
+                }
+                else if(strcmp(textinput, "#")==0)
+                {
+                    fprintf(file,"\r\n");
+                }
+			    fprintf(file,"\t %s",textinput);
+            }
+
+
+            fclose(textfile);
+        }
         else if(strcmp(command, "logout")==0)
         {
             clear();
