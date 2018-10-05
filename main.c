@@ -75,7 +75,7 @@ int main()
 
     ABOUT:printf("=================================\n");
     printf("   _____  _____   _____   _      \n");
-    printf("  / ____|/ ____| / ____| | |  V 1.0\n");
+    printf("  / ____|/ ____| / ____| | |  V 1.5\n");
     printf(" | (___ | |     | |      | |     \n");
     printf(" |____ )| |     | |      | |     \n");
     printf("  ____) | |____ | |____ _| |____ \n");
@@ -253,11 +253,11 @@ int main()
             switch(choice)
             {
                 case(1):
-                printf("ls | cd | mkdir | rmdir | makefile | rm | cpy | mv | touch | time | shutdown | logout | sysinfo | clear | exit | run | help | about");
+                printf("ls | cd | mkdir | rmdir | makefile | textedit | rm | cpy | mv | touch | time | shutdown | logout | sysinfo | clear | exit | run | help | about");
                 break;
 
                 case(2):
-                printf("ls | cd | mkdir | rmdir | makefile | rm | cpy | mv | touch | time | logout | sysinfo | exit | help | about");
+                printf("ls | cd | mkdir | rmdir | makefile | rm | textedit | cpy | mv | touch | time | logout | sysinfo | exit | help | about");
                 break;
             }
 
@@ -287,7 +287,8 @@ int main()
 
             FILE* textfile = fopen(textedit,"w");
 
-			printf(" ==TeXT-eDIT== V0.1   \n");
+			printf("          ==TeXT-eDIT== V0.1 \n");
+			printf("[!] use 'wdtd' to view formatting commands");
 			int editmode;
 			for(editmode=0; editmode<999;editmode++)
             {

@@ -103,6 +103,10 @@ int WhatDo(char command[100])
         {
             printf("\n[touch] creates a new file with filename specified by the user.");
         }
+        else if(strcmp(command, "textedit")==0)
+        {
+            printf("\n[textedit] creates or opens an existing file and allows for basic text editing. use '#' for a new line and 'exit' to exit file");
+        }
 
 }
 
