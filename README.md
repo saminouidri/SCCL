@@ -16,6 +16,8 @@ SCCL is an educational project I undertook to challenge myself in writing a simp
 
 *basic text editor to edit files such as "GNU nano" or "vim"
 
+UPDATE: *very* basic text editor implemented as "textedit". 
+
 *Multi-Tasking commands to manage different processes on host system
 
 ### Making-Of
