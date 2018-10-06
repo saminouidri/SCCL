@@ -272,7 +272,7 @@ int main()
         }
         else if(strcmp(command, "about")==0)
         {
-            printf("== S.C.C.L  version 1.0==\n");
+            printf("== S.C.C.L  version 1.5==\n");
             printf("Published under GPLv3\n");
             printf("Author : Sami Nouidri\n");
             printf("=========================");
@@ -282,13 +282,17 @@ int main()
         {
             char textedit[100];
 			char textinput[999];
+
             printf("Enter filename to be edited : ");
             scanf("%s", &textedit);
 
-            FILE* textfile = fopen(textedit,"w");
+            FILE* textfile = fopen(textedit,"a+");
+
+
 
 			printf("          ==TeXT-eDIT== V0.1 \n");
 			printf("[!] use 'wdtd' to view formatting commands");
+
 			int editmode;
 			for(editmode=0; editmode<999;editmode++)
             {
