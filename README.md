@@ -1,7 +1,7 @@
 ![SCCL](https://imgur.com/3K6NZJN.jpg)
 ## What is SCCL?
 SCCL is a simple UNIX-like command line written in C. It is in NO way meant to replace any existing CLIs or Shell such as BASH.
-SCCL is an educational project I undertook to challenge myself in writing a simple CLI using the most basic C syntax.
+SCCL is an educational project I undertook to challenge myself in writing a simple CLI using my current knowledge of C.
 ## Features :
 *Basic File manipulation and sysadmin commands builtin with UNIX-Like syntax
 
