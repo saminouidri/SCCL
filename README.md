@@ -32,7 +32,7 @@ to enter a password which will later be used for the logout feature. the file pa
 a string and inside passwd with fprintf. we then close it and move on to the prompt.
 #### Prompt
 we then move on to a while(1){} infinite loop in which we ask for the user's input. we compare the input with the known commands
-with strcmp() and execute if it matches. if not we goto PROMPT; .In most CLIs commands have arguments which allow you to specify
+with strcmp() and execute if it matches. if not we goto* PROMPT.In most CLIs commands have arguments which allow you to specify
 what to do with your command. In order to avoid having to deconstruct the user's input into multiple strings without spaces we
 ask the user to first input the command (for e.x "cd") and then ask him to input the necessary arguments in seperate scanf()
 instances. So the user types :
@@ -43,6 +43,9 @@ instances. So the user types :
 
 This is to simply the coding process. It is true that simply typing "cd mydir" is faster but for the moment I focused on making
 a functional CLI.
+
+*I am aware that using goto is a frowned upon practice in programming, however I had the mindset that for a simple program,using goto is not a problem.
+
 ### Installing
 SCCL is currently readily available on windows as a standalone executable can be found in the debug folder,
 however OSX and Linux versions will have to be compiled manually.
